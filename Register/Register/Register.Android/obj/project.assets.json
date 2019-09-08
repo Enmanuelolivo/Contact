@@ -8872,11 +8872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register.Android\\Register.Android.csproj",
+      "projectUniqueName": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register.Android\\Register.Android.csproj",
       "projectName": "Register.Android",
-      "projectPath": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register.Android\\Register.Android.csproj",
+      "projectPath": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register.Android\\Register.Android.csproj",
       "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register.Android\\obj\\",
+      "outputPath": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8897,8 +8897,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register\\Register.csproj": {
-              "projectPath": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register\\Register.csproj"
+            "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register\\Register.csproj": {
+              "projectPath": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register\\Register.csproj"
             }
           }
         }

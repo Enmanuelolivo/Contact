@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register\\Register.csproj": {}
+    "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register\\Register.csproj": {}
   },
   "projects": {
-    "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register\\Register.csproj": {
+    "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register\\Register.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register\\Register.csproj",
+        "projectUniqueName": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register\\Register.csproj",
         "projectName": "Register",
-        "projectPath": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register\\Register.csproj",
+        "projectPath": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register\\Register.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register\\obj\\",
+        "outputPath": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -13418,11 +13418,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register.iOS\\Register.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register.iOS\\Register.iOS.csproj",
       "projectName": "Register.iOS",
-      "projectPath": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register.iOS\\Register.iOS.csproj",
+      "projectPath": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register.iOS\\Register.iOS.csproj",
       "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register.iOS\\obj\\",
+      "outputPath": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -13443,8 +13443,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register\\Register.csproj": {
-              "projectPath": "C:\\Users\\enman\\source\\repos\\Register\\Register\\Register\\Register.csproj"
+            "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register\\Register.csproj": {
+              "projectPath": "C:\\Users\\enman\\Documents\\GitHub\\Register\\Register\\Register\\Register.csproj"
             }
           }
         }
