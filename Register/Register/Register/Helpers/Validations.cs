@@ -20,34 +20,14 @@ namespace Register.Helpers
 
          public static bool PassVerification(string pass1, string pass2)
         {
-            bool r = false;
-            if (string.IsNullOrEmpty(pass1) && !string.IsNullOrEmpty(pass2))
-            {
-                if (pass1.Equals(pass2))
-                    r = true;
-            }
-            else
-                r = false;
-            return r;
-        }
-        public static bool ValidateEmail(string e)
-        {
-           
-            var email =
-                 @"^(([\w-]+\.)+[\w-]+|([a-zA-Z]{1}|[\w-]{2,}))@"
-             + @"((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?
-			   [0-9]{1,2}|25[0-5]|2[0-4][0-9])\."
-             + @"([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?
-			   [0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|"
-             + @"([a-zA-Z0-9]+[\w-]+\.)+[a-zA-Z]{1}[a-zA-Z0-9-]{1,23})$";
-           
-            if (Regex.IsMatch(e, email))
+         
+            if (pass1 != pass2)
             {
                 return true;
             }
-           
             return false;
         }
+      
     }
     }
 

@@ -32,10 +32,7 @@ namespace Register.ViewModels
                  {
                      R = "El Apellido esta vacio";
                  }
-                 else if(!Validations.ValidateEmail(RData.Email))
-                 {
-                     R = "Esto no es un Correo Valido";
-                 }
+                
                  else if (!Validations.NotEmpty(RData.Email))
                  {
                      R = "Este Correo esta vacio";

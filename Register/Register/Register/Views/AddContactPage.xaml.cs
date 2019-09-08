@@ -20,22 +20,7 @@ namespace Register.Views
             InitializeComponent();
             BindingContext = new ContactViewModel();
         }
-
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-
-            ContactModel NewContact = new ContactModel()
-            {
-                Nombre = Name.Text,
-
-                Telefono = Phone.Text
-            };
-
-            MessagingCenter.Send(NewContact, "Nuevo Contacto Añadido");
-
-         
-
-
-        }
     }
-}
+  }
+
+
