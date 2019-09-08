@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Register.Views.LoginPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                <Image Source="foto7.png" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="150" HeightRequest="150"/>
+
+                <Entry Text="{Binding U.User}" Placeholder="Usuario"/>
+                <Entry Text="{Binding U.password}" Placeholder="Contraseña" IsPassword="True"/>
+                <Label Text="{Binding r, Mode=TwoWay}" TextColor="Red"/>
+
+                <Button Command="{Binding SaveData}" Text="Iniciar Sesion" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Button Command="{Binding RegisterPage}" Text="Registro" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

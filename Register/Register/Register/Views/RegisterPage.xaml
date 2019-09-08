@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Register.Views.RegisterPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="R.jpg" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="150" HeightRequest="150"/>
+
+                <Entry Text="{Binding RData.Name}" Placeholder="Nombre" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+                <Entry Text="{Binding RData.LastName}" Placeholder="Apellido" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+                <Entry Text="{Binding RData.Email}" Placeholder="Correo" Keyboard="Email" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+                <Entry Text="{Binding RData.Password}" Placeholder="Contraseña" VerticalOptions="Center" HorizontalOptions="FillAndExpand" IsPassword="True"/>
+                <Entry Text="{Binding RData.PaswwordConfirm}" Placeholder="Confirmar Contraseña" VerticalOptions="Center" HorizontalOptions="FillAndExpand" IsPassword="True"/>
+                <Label Text="{Binding R, Mode=TwoWay}" TextColor="Red"/>
+                <Button Command="{Binding SaveRegister, Mode=TwoWay}" 
+                       Text="Guardar Datos" 
+                        HorizontalOptions="Center" VerticalOptions="Center"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
