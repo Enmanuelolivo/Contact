@@ -30,8 +30,12 @@ namespace Register.ViewModels
                 string N = micontacto.Nombre;
                 string T = micontacto.Telefono;
                 Contacts.Add(micontacto);
-                MessagingCenter.Send<ContactViewModel, ContactModel>(this, "newContact",micontacto);
-
+                MessagingCenter.Subscribe<ContactViewModel, ContactModel>(this, "NuevoContacto", ((sender, arg) =>
+                {
+                    contacto.Nombre = arg.Nombre;
+                    contacto.Telefono = arg.Telefono;
+                    MessagingCenter.Unsubscribe<ContactViewModel, ContactModel>(this, "Nuevo Contacto");
+                }));
                 await App.Current.MainPage.Navigation.PushModalAsync(new NavigationPage(new HomePage()));
             });
         }
