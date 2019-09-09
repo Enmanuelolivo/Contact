@@ -86,7 +86,6 @@ C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\Register.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Collections.Immutable.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Core.dll
-C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Data.SQLite.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Diagnostics.DiagnosticSource.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.IO.Compression.dll

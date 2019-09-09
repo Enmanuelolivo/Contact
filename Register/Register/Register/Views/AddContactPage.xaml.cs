@@ -2,7 +2,6 @@
 using Register.ViewModels;
 using System;
 using System.Collections.Generic;
-using System.Data.SQLite;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,10 +14,10 @@ namespace Register.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddContactPage : ContentPage
     {
-        public AddContactPage()
+        public AddContactPage(ContactModel contact)
         {
             InitializeComponent();
-            BindingContext = new ContactViewModel();
+            BindingContext = new AddContactViewModel(contact);
         }
     }
   }

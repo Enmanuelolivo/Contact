@@ -7,21 +7,19 @@ using System.Threading.Tasks;
 using Register.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Register.Models;
 
 namespace Register.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : ContentPage
     {
-        public HomePage()
+        public HomePage(ContactModel contacto)
         {
             InitializeComponent();
-            BindingContext = new ContactViewModel();
+            BindingContext = new ContactViewModel(contacto);
         }
 
-         void Añadir(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new NavigationPage(new AddContactPage()));
-        }
+        
     }
 }

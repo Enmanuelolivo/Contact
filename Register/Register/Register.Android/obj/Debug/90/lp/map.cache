@@ -81,7 +81,6 @@ PropertyChanged
 Register
 System.Buffers
 System.Collections.Immutable
-System.Data.SQLite
 System.Diagnostics.DiagnosticSource
 System.Memory
 System.Reflection.Metadata

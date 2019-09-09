@@ -9,11 +9,11 @@
     <ContentPage.Content>
         <StackLayout>
             <Entry x:Name="Name" Placeholder="Nombre" 
-                   Text="{Binding Nombre}"></Entry>
+                   Text="{Binding ContactModel.Nombre}"></Entry>
 
             <Entry x:Name="Phone" Placeholder="Telefono" 
-                   Keyboard="Telephone" Text="{Binding Telefono}"></Entry>
-            <Button Text="Agregar Contacto" Command="{Binding AddContact}"  TextColor="Black"></Button>
+                   Keyboard="Telephone" Text="{Binding ContactModel.Telefono}"></Entry>
+            <Button Text="Agregar Contacto" Command="{Binding AddNewContact}"  TextColor="Black"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

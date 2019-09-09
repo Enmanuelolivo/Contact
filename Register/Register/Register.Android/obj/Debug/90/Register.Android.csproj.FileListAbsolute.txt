@@ -961,7 +961,6 @@ C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\linksrc\Register.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\linksrc\System.Collections.Immutable.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\linksrc\System.Core.dll
-C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\linksrc\System.Data.SQLite.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\linksrc\System.Diagnostics.DiagnosticSource.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\linksrc\System.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\linksrc\System.IO.Compression.dll
@@ -1213,8 +1212,6 @@ C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Core.pdb
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Data.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Data.pdb
-C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Data.SQLite.dll
-C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Data.SQLite.dll.config
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Diagnostics.Debug.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Diagnostics.DiagnosticSource.dll
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\android\assets\System.Diagnostics.Tools.dll
@@ -1597,7 +1594,6 @@ C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\stamp\_BuildAdditionalResourcesCache.stamp
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\stamp\_CleanIntermediateIfNuGetsChange.stamp
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\stamp\_CompileToDalvik.stamp
-C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\stamp\_CopyConfigFiles.stamp
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\stamp\_CopyIntermediateAssemblies.stamp
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\stamp\_CopyMdbFiles.stamp
 C:\Users\enman\Documents\GitHub\Register\Register\Register.Android\obj\Debug\90\stamp\_CopyPdbFiles.stamp

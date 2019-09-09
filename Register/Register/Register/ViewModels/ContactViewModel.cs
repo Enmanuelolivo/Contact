@@ -17,26 +17,23 @@ namespace Register.ViewModels
         public ICommand AddContact { get; set; }
         public event PropertyChangedEventHandler PropertyChanged;
 
-
-        public ContactViewModel()
+       
+        public ContactViewModel(ContactModel contacto)
         {
-            ContactModel micontacto = new ContactModel();
-            micontacto.Nombre = "Juan";
-            micontacto.Telefono = "8298042221";
-            Contacts.Add(micontacto);
-
+         
             AddContact = new Command(async () =>
             {
-                string N = micontacto.Nombre;
-                string T = micontacto.Telefono;
-                Contacts.Add(micontacto);
-                MessagingCenter.Subscribe<ContactViewModel, ContactModel>(this, "NuevoContacto", ((sender, arg) =>
+                string N = contacto.Nombre;
+                string T = contacto.Telefono;
+                Contacts.Add(contacto);
+
+                MessagingCenter.Subscribe<AddContactViewModel, ContactModel>(this, "NuevoContacto", ((sender, param) =>
                 {
-                    contacto.Nombre = arg.Nombre;
-                    contacto.Telefono = arg.Telefono;
-                    MessagingCenter.Unsubscribe<ContactViewModel, ContactModel>(this, "Nuevo Contacto");
+                    Contacts.Add(param);
+                    MessagingCenter.Unsubscribe<AddContactViewModel,ContactModel>(this, "NuevoContacto");
                 }));
-                await App.Current.MainPage.Navigation.PushModalAsync(new NavigationPage(new HomePage()));
+                await App.Current.MainPage.Navigation.PushAsync(new NavigationPage(new AddContactPage(new ContactModel())));
+
             });
         }
     }

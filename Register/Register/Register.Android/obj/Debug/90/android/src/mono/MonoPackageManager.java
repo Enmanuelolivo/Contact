@@ -193,7 +193,6 @@ class MonoPackageManager_Resources {
 		"PropertyChanged.dll",
 		"Register.dll",
 		"System.Collections.Immutable.dll",
-		"System.Data.SQLite.dll",
 		"System.Diagnostics.DiagnosticSource.dll",
 		"System.Reflection.Metadata.dll",
 		"System.Runtime.CompilerServices.Unsafe.dll",

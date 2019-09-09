@@ -49,7 +49,7 @@ namespace Register.ViewModels
 
                  else
                  {
-                     await App.Current.MainPage.Navigation.PushModalAsync(new NavigationPage(new HomePage()));
+                     await App.Current.MainPage.Navigation.PushModalAsync(new NavigationPage(new HomePage(null)));
                  }
              }
             );

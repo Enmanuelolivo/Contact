@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="Register.Views.HomePage">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Name="Menu_Item1" Text="Añadir" Order="Primary" Clicked="Añadir"  Command="{Binding ContactViewModel.AddContact}"></ToolbarItem>
+        <ToolbarItem Name="Menu_Item1" Text="Añadir" Order="Primary"  Command="{Binding AddContact}"></ToolbarItem>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ListView ItemsSource="{Binding Contacts}"

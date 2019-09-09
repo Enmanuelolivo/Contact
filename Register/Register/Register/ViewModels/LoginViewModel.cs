@@ -35,12 +35,12 @@ namespace Register.ViewModels
                  }
                  else
                  {
-                     await App.Current.MainPage.Navigation.PushModalAsync(new NavigationPage(new HomePage()));
+                     await App.Current.MainPage.Navigation.PushAsync(new HomePage(null));
                  }
 
                  RegisterPage = new Command(async () =>
                   {
-                      await App.Current.MainPage.Navigation.PushModalAsync(new RegisterPage());
+                      await App.Current.MainPage.Navigation.PushAsync(new RegisterPage());
                   });
 
              });
